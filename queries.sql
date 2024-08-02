@@ -37,7 +37,10 @@ SELECT * FROM EMPLOYEE ;
 -- 8.fetch
 -- SELECT name FROM EMPLOYEE WHERE salary>=50 and salary<150;
 -- 9.fetch
-SELECT empId FROM EMPLOYEE WHERE salary>500;
+-- SELECT empId FROM EMPLOYEE WHERE salary>500;
 -- 10.fetch
-SELECT * FROM EMPLOYEE WHERE empId>2 and empId<=9;
-
+-- SELECT * FROM EMPLOYEE WHERE empId>2 and empId<=9;
+-- 11.fetch
+SELECT * FROM EMPLOYEE WHERE name = 'happy';
+-- 12.fetch
+SELECT dept FROM EMPLOYEE WHERE salary >=200;
